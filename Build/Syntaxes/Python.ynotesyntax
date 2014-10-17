@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YnoteSyntax>
+  <Key Name="SyntaxName" Value="Python" />
+  <Key Name="CommentPrefix" Value="#" />
+  <Key Name="FileTypes" Value=".py" />
+  <Rule Style="Comment" Options="Multiline" Regex="#.*$" />
+  <Rule Style="String" Options="None" Regex="&quot;&quot;|@&quot;&quot;|''|@&quot;.*?&quot;|(?&lt;!@)(?&lt;range&gt;&quot;.*?[^\\]&quot;)|'.*?[^\\]'" />
+  <Rule Style="String" Options="None" Regex="(&quot;&quot;&quot;.*?&quot;&quot;&quot;)|('''.*?''')|(&quot;&quot;&quot;.*)|('''.*)" />
+  <Rule Style="String" Options="None" Regex="(&quot;&quot;&quot;.*?&quot;&quot;&quot;)|('''.*?''')|(.*&quot;&quot;&quot;)|(.*''')" />
+  <Rule Style="ClassName" Options="None" Regex="\b(class)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="FunctionName" Options="None" Regex="\b(def)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="Keyword" Options="None" Regex="\b(and|del|from|not|while|as|elif|global|or|with|assert|else|if|pass|yield|break|except|import|print|exec|in|raise|continue|finally|is|return|for|try)\b" />
+  <Rule Style="Constant" Options="None" Regex="\b(True|False|None|NotImplemented)\b" />
+  <Rule Style="Storage" Options="None" Regex="\b(def|global|class)\b" />
+  <Rule Style="LibraryFunction" Options="None" Regex="\b(dir|id|callable|dict|open|all|vars|iter|enumerate|sorted|super|classmethod|tuple|execfile|eval|abs|compile|basestring|map|self|xrange|range|lambda|ord|isinstance|long|float|format|str|type|hasattr|max|len|repr|getattr|list)\b" />
+  <Rule Style="LibraryClass" Options="None" Regex="\b(self|bool|buffer|set|slice|unicode|property|staticmethod|enumerate|object|open|dict|int|tuple|basestring|long|float|type|list|RuntimeError)\b" />
+  <Rule Style="Number" Options="None" Regex="\b\d+[\.]?\d*([eE]\-?\d+)?[lLdDfF]?\b|\b0x[a-fA-F\d]+\b" />
+</YnoteSyntax>

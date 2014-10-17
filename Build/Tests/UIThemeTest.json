@@ -1,0 +1,10 @@
+[
+	{
+		"class":"tree_view",
+		"full_item_select":true,
+		"background":[240, 240, 240],
+		"foreground":[10, 22, 33],
+		"selection_color":[221,21,34]
+	},
+	{"class":"tab","show_icon":false,"tab_image":"System.Drawing.Bitmap"}
+]

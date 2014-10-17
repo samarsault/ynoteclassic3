@@ -1,0 +1,46 @@
+{
+	"Name":"JSON",
+	"FileTypes":[".json", ".ynotesettings", ".ynotemenu"],
+	"CommentPrefix":"//",
+
+	"Rules":[
+		{
+			"Style":"String",
+			"Regex":"\"\"|@\"\"|''|@\".*?\"|(?<!@)(?<range>\".*?[^\\\\]\")|'.*?[^\\\\]'"
+		},
+		{
+			"Style":"Comment",
+			"Options":"Multiline",
+			"Regex":"//.*$"
+		},
+		{
+			"Style":"Comment",
+			"Options":"Singleline",
+			"Regex":"(/\\*.*?\\*/)|(/\\*.*)"
+		},
+		{
+			"Style":"Comment",
+			"Options":"Singleline,RightToLeft",
+			"Regex":"(/\\*.*?\\*/)|(.*\\*/)"
+		},
+		{
+			"Style":"Constant",
+			"Regex":"\\b(true|false)\\b"
+		},
+		{
+			"Style":"Number",
+			"Regex":"\\b\\d+[\\.]?\\d*([eE]\\-?\\d+)?[lLdDfF]?\\b|\\b0x[a-fA-F\\d]+\\b"
+		}
+	],
+	
+	"FoldingRules":[
+		{
+			"FoldingStartMarker":"{",
+			"FoldingEndMarker":"}"
+		},
+		{
+			"FoldingStartMarker":"/\\*",
+			"FoldingEndMarker":"\\*/",
+		}
+	]
+}

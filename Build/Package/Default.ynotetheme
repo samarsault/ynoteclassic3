@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<YnoteTheme>
+	<!-- Styles used for Syntax Highlighting -->
+	<Style Name="Comment" Foreground="#386D1D" Font="Regular" />
+	<Style Name="String" Foreground="#A52828" Font="Regular" />
+	<Style Name="Number" Foreground="#FF00FE" Font="Regular" />
+	<Style Name="Variable" Foreground="#619B9D" Font="Regular" />
+	<Style Name="Keyword" Foreground="#0000FF" Font="Regular" />
+	<Style Name="Storage" Foreground="#8000FF" Font="Regular" />
+	<Style Name="Constant" Foreground="#B955D3" Font="Regular" />
+	<Style Name="TagBracket" Foreground="#0000FF" Font="Regular" />
+	<Style Name="TagName" Foreground="#800000" Font="Regular" />
+	<Style Name="DoctypeDeclaration" Foreground="#800000" Font="Regular" />
+	<Style Name="ClassName" Foreground="#000000" Font="Bold" />
+	<Style Name="FunctionName" Foreground="#4681B4" Font="Regular" />
+	<Style Name="FunctionArgument" Foreground="#FF8000" Font="Regular" />
+	<Style Name="Punctuation" Foreground="#000226" Font="Regular" />
+	<Style Name="AttributeName" Foreground="#FF0000" Font="Regular" />
+	<Style Name="AttributeValue" Foreground="#0000FF" Font="Regular" />
+	<Style Name="CSSProperty" Foreground="#FF00FE" Font="Regular" />
+	<Style Name="CSSSelector" Foreground="#0000FF" Font="Regular" />
+	<Style Name="CSSPropertyValue" Foreground="#0000FF" Font="Regular" />
+	<Style Name="Preprocessor" Foreground="#B8860A" Font="Regular" />
+	<Style Name="LibraryClass" Foreground="#8573FF" Font="Regular" />
+	<Style Name="LibraryFunction" Foreground="#8573FF" Font="Italic" />
+</YnoteTheme>

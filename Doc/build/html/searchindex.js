@@ -1,0 +1,1 @@
+Search.setIndex({filenames:["index"],envversion:43,titles:["Welcome to Ynote Classic 3&#8217;s documentation!"],terms:{content:0,index:0,page:0,search:0,modul:0},titleterms:{document:0,tabl:0,ynote:0,welcom:0,indic:0,classic:0},objects:{},objnames:{},objtypes:{}})

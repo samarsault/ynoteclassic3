@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+	<YnoteSyntax>
+		<!-- Syntax Information -->
+		<Key Name="SyntaxName" Value="Text"></Key>
+		<Key Name="FileTypes" Value=".txt"></Key>
+	</YnoteSyntax>

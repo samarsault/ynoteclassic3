@@ -1,0 +1,6 @@
+{
+	"N, Control":"newFile",
+	"O, Control":"openFile",
+	"S, Control":"saveFile",
+	"W, Control":"closeActiveWindow",
+}

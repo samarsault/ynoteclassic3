@@ -1,0 +1,247 @@
+[
+	{
+		"Name":"File",
+		"Children":[
+			{
+				"Name":"New",
+				"Method":"newFile"
+			},
+			{
+				"Name":"Open File",
+				"Method":"openFile"
+			},
+			{
+				"Name":"Open Folder",
+				"Method":"showProjectView"
+			},
+			{
+				"Name":"Revert",
+				"Method":"revertFile"
+			},
+			{
+				"Name":"-",
+			},
+			{
+				"Name":"Save",
+				"Method":"saveFile"
+			},
+			{
+				"Name":"Save All",
+				"Method":"saveAll"
+			},
+			{
+				"Name":"-"
+			},
+			{
+				"Name":"Print",
+				"Method":"printDoc"
+			},
+			{
+				"Name":"Export",
+				"Children":[
+					{
+						"Name":"HTML (Webpage)"
+					},
+					{
+						"Name":"Rich Text (RTF)"
+					},
+					{
+						"Name":"Image (PNG)"
+					}
+				]
+			},
+			{
+				"Name":"-"
+			},
+			{
+				"Name":"Close",
+				"Method":"closeActiveWindow"
+			},
+			{
+				"Name":"Close All",
+				"Method":"closeAll"
+			},
+			{
+				"Name":"Exit",
+				"Method":"exitApp"
+			}
+		]
+	},
+	{
+		"Name":"Edit",
+		"Children":[
+			{
+				"Name":"Undo",
+				"Method":"undo"
+			},
+			{
+				"Name":"Redo",
+				"Method":"redo"
+			},
+			{
+				"Name":"-"
+			},
+			{
+				"Name":"Cut",
+				"Method":"cut"
+			},
+			{
+				"Name":"Copy",
+				"Method":"copy"
+			},
+			{
+				"Name":"Paste",
+				"Method":"paste"
+			},
+			{
+				"Name":"Select All",
+				"Method":"selectAll"
+			},
+			{
+				"Name":"-"
+			},
+			{
+				"Name":"Search",
+				"Children":[
+					{ "Name":"Find"},
+					{ "Name":"Find Previous"},
+					{ "Name":"Find Next"},
+					{ "Name":"Find Character"},
+					{ "Name":"Incremental Search"},
+					{ "Name":"-"},
+					{ "Name":"Replace"},
+					{ "Name":"Replace Next"},
+					{ "Name":"-"},
+					{ "Name":"Find In Files"},
+					{ "Name":"Find In Project"},
+				]
+			},
+			{
+				"Name":"Line",
+				"Children":[
+					{ "Name":"Move Up" },
+					{ "Name":"Move Down" },
+					{ "Name":"Duplicate" },
+					{ "Name":"-" },
+					{ "Name":"Join Lines" },
+					{ "Name":"Split Line" },
+					{ "Name":"-" },
+					{ "Name":"Sort Lines (Reverse)" },
+					{ "Name":"Sort Lines (Alphabetic)" },
+					{ "Name":"Sort Lines (Length)" },
+					{ "Name":"-" },
+					{ "Name":"Remove Current line" },
+					{ "Name":"Remove Empty Lines" },
+				]
+			}
+		]
+	},
+	{
+		"Name":"View",
+		"Children":[
+			{
+				"Name":"Menu"
+			},
+			{
+				"Name":"ToolBar",
+			},
+			{
+				"Name":"Status Bar"
+			},
+			{ "Name":"-" },
+			{
+				"Name":"Full Screen"
+			},
+			{
+				"Name":"Distraction Free"
+			}
+		]
+	},
+	{
+		"Name":"Goto",
+		"Children":[
+			{
+				"Name":"Goto Window",
+			}
+		]
+	},
+	{
+		"Name":"Tools",
+		"Children":[
+			{
+				"Name":"Package Manager",
+			},
+			{
+				"Name":"Keybinding Editor",
+			},
+			{
+				"Name":"Build Syntax",
+				"Method":"compileSyntaxFile"
+				},
+			{
+				"Name":"Options",
+			}
+		]
+	},
+	{
+		"Name":"Project",
+		"Children":[
+			{"Name":"Open Project"},
+			{"Name":"Quick Switch Project"},
+			{"Name":"Open Recent"},
+			{"Name":"-"},
+			{"Name":"Save Project"},
+			{"Name":"Edit Project File"},
+			{"Name":"Close Project"},
+		]
+	},
+	{
+		"Name":"Macros",
+		"Children":[
+			{
+				"Name":"Start/Stop Recording",
+			},
+			{
+				"Name":"-",
+			},
+			{
+				"Name":"Playback Macro",
+			},
+			{
+				"Name":"Execute Macro Multiple Times",
+			},
+			{
+				"Name":"Save Recorded Macro",
+			},
+		]
+	},
+	{
+		"Name":"Help",
+		"Children":[
+			{
+				"Name":"Documentation",
+			},
+			{
+				"Name":"Check for Updates",
+			},
+			{
+				"Name":"-",
+			},
+			{
+				"Name":"Project Page",
+			},
+			{
+				"Name":"Feature Request",
+			},
+			{
+				"Name":"Bug Report",
+			},
+			{
+				"Name":"-",
+			},
+			{
+				"Name":"About",
+			},
+		]
+	}
+]

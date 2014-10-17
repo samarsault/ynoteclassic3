@@ -1,0 +1,21 @@
+[
+	{
+		"class":"tree_view",
+		"full_item_select":true,
+		"background":[240, 240, 240],
+		"foreground":[10, 22, 33],
+		"selection_color":[221,21,34],
+		"image_collapse":"Package/res/expand.png",
+		"image_expand":"Package/res/collapse.png",
+	},
+	{
+		"class":"scroll_bar",
+		"background":[255,255,255],
+		"border_color":[0,123,231],
+		"thumb_color":[10,100,1],
+		"thumb_size":100,
+	},
+   // {
+   //	 "class":"auto_complete",
+   // }
+]

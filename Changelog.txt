@@ -1,0 +1,16 @@
+-> Added Customizable JSON Menu Files
+-> Added JSON-Based Keymappings
+-> Added new Command System which can be written by any scripting language (Default:Python)
+-> Better Package Management System
+-> Better ProjectView Tree UI using FastTree (http://github.com/PavelTorgashov/FastTree)
+-> Better Syntax Infrastructure
+-> JSON-YNOTESYNTAX Compiler for write-less do more compiling of syntaxes
+-> Customizable Theme with Custom Styles which can be defined in the Syntax
+-> Syntax Specefic Settings Added
+-> Fixed Folding Not Showing up Error
+-> Added Themable UI for TreeView and AutocompleteMenu
+-> Added C++, Javascript and CSS Syntax Files
+-> Added Status Bar Info
+-> Added JSON Syntax
+-> Added Themable Scroll Bars
+-> Updated to FastColoredTextBox 2.16.1

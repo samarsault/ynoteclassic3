@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YnoteSyntax>
+  <Key Name="SyntaxName" Value="C++" />
+  <Key Name="CommentPrefix" Value="//" />
+  <Key Name="FileTypes" Value=".cpp,.cc,.cxx,.cp,.c++,.hpp,.ipp,.inl,.h" />
+  <Rule Style="Comment" Options="Multiline" Regex="//.*$" />
+  <Rule Style="Comment" Options="Singleline" Regex="(/\*.*?\*/)|(/\*.*)" />
+  <Rule Style="Comment" Options="Singleline, RightToLeft" Regex="(/\*.*?\*/)|(.*\*/)" />
+  <Rule Style="String" Options="None" Regex="&quot;&quot;|@&quot;&quot;|''|@&quot;.*?&quot;|(?&lt;!@)(?&lt;range&gt;&quot;.*?[^\\]&quot;)|'.*?[^\\]'" />
+  <Rule Style="String" Options="None" Regex="(?&lt;=\&lt;)(.*?)(?=\&gt;)|\&lt;|\&gt;" />
+  <Rule Style="ClassName" Options="None" Regex="\b(class|struct|enum|interface)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="FunctionName" Options="None" Regex="\b(void|int|bool|string|uint|ushort|ulong|byte)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="Preprocessor" Options="None" Regex="#[a-zA-Z_\d]*\b" />
+  <Rule Style="Keyword" Options="None" Regex="\b(break|case|continue|default|public|private|do|else|for|goto|if|_Pragma|return|switch|sizeof|while|const|extern|register|restrict|static|volatile|inline|extern|class|wchar_t|template|friend|explicit|virtual|private|protected|public|while|for|do|if|else|switch|catch|enumerate|and|and_eq|bitand|bitor|compl|not|not_eq|or|or_eq|typeid|xor|xor_eq|const_cast|dynamic_cast|reinterpret_cast|static_cast|catch|operator|try|throw|using|delete)\b" />
+  <Rule Style="Constant" Options="None" Regex="\b(this|nullptr|NULL|true|false|TRUE|FALSE|noErr|kNilOptions|kInvalidID|kVariableLengthArray)\b" />
+  <Rule Style="Storage" Options="None" Regex="\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|class|long|short|signed|struct|typedef|union|unsigned|void)\b" />
+  <Rule Style="LibraryClass" Options="None" Regex="\b(u_char|u_short|u_int|u_long|ushort|uint|u_quad_t|quad_t|qaddr_t|caddr_t|daddr_t|dev_t|fixpt_t|blkcnt_t|blksize_t|gid_t|in_addr_t|in_port_t|ino_t|key_t|mode_t|nlink_t|id_t|pid_t|off_t|segsz_t|swblk_t|uid_t|id_t|clock_t|size_t|ssize_t|time_t|useconds_t|suseconds_t|pthread_attr_t|pthread_cond_t|pthread_condattr_t|pthread_mutex_t|pthread_mutexattr_t|pthread_once_t|pthread_rwlock_t|pthread_rwlockattr_t|pthread_t|pthread_key_t|int8_t|int16_t|int32_t|int64_t|uint8_t|uint16_t|uint32_t|uint64_t|int_least8_t|int_least16_t|int_least32_t|int_least64_t|uint_least8_t|uint_least16_t|uint_least32_t|uint_least64_t|int_fast8_t|int_fast16_t|int_fast32_t|int_fast64_t|uint_fast8_t|uint_fast16_t|uint_fast32_t|uint_fast64_t|intptr_t|uintptr_t|intmax_t|intmax_t|uintmax_t|uintmax_t|AbsoluteTime|Boolean|Byte|ByteCount|ByteOffset|BytePtr|CompTimeValue|ConstLogicalAddress|ConstStrFileNameParam|ConstStringPtr|Duration|Fixed|FixedPtr|Float32|Float32Point|Float64|Float80|Float96|FourCharCode|Fract|FractPtr|Handle|ItemCount|LogicalAddress|OptionBits|OSErr|OSStatus|OSType|OSTypePtr|PhysicalAddress|ProcessSerialNumber|ProcessSerialNumberPtr|ProcHandle|Ptr|ResType|ResTypePtr|ShortFixed|ShortFixedPtr|SignedByte|SInt16|SInt32|SInt64|SInt8|Size|StrFileName|StringHandle|StringPtr|TimeBase|TimeRecord|TimeScale|TimeValue|TimeValue64|UInt16|UInt32|UInt64|UInt8|UniChar|UniCharCount|UniCharCountPtr|UniCharPtr|UnicodeScalarValue|UniversalProcHandle|UniversalProcPtr|UnsignedFixed|UnsignedFixedPtr|UnsignedWide|UTF16Char|UTF32Char|UTF8Char)\b" />
+  <Rule Style="Number" Options="None" Regex="\b\d+[\.]?\d*([eE]\-?\d+)?[lLdDfF]?\b|\b0x[a-fA-F\d]+\b" />
+  <Folding Start="{" Options="None" End="}" />
+  <Folding Start="/\*" Options="None" End="\*/" />
+  <Folding Start="#if\b" Options="IgnoreCase" End="#end\b" />
+</YnoteSyntax>

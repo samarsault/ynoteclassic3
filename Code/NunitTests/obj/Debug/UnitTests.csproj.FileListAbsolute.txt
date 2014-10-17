@@ -1,0 +1,13 @@
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\NunitTests.dll.config
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\NunitTests.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\NunitTests.pdb
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\nunit.framework.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\SS.Ynote.Classic.Core.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\FastColoredTextBox.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\SS.Ynote.Classic.Core.pdb
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\FastColoredTextBox.pdb
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\bin\Debug\FastColoredTextBox.xml
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\obj\Debug\NunitTests.dll
+C:\Users\Samarjeet\Desktop\ynoteclassic3\Code\NunitTests\obj\Debug\NunitTests.pdb

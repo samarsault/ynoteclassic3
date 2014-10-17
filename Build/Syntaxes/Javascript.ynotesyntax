@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YnoteSyntax>
+  <Key Name="SyntaxName" Value="Javascript" />
+  <Key Name="CommentPrefix" Value="//" />
+  <Key Name="FileTypes" Value=".js" />
+  <Rule Style="Comment" Options="Multiline" Regex="//.*$" />
+  <Rule Style="Comment" Options="Singleline" Regex="(/\*.*?\*/)|(/\*.*)" />
+  <Rule Style="Comment" Options="Singleline, RightToLeft" Regex="(/\*.*?\*/)|(.*\*/)" />
+  <Rule Style="String" Options="None" Regex="&quot;&quot;|@&quot;&quot;|''|@&quot;.*?&quot;|(?&lt;!@)(?&lt;range&gt;&quot;.*?[^\\]&quot;)|'.*?[^\\]'" />
+  <Rule Style="ClassName" Options="None" Regex="\b(class|struct|enum|interface)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="FunctionName" Options="None" Regex="\b(void|int|bool|string|uint|ushort|ulong|byte)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="Keyword" Options="None" Regex="\b(break|case|catch|const|continue|default|delete|do|escape|unescape|else|export|for|if|in|instanceof|new|return|switch|throw|try|void|while|with|typeof)\b" />
+  <Rule Style="Constant" Options="None" Regex="\b(true|false|null|this)\b" />
+  <Rule Style="Storage" Options="None" Regex="\b(var|function)\b" />
+  <Rule Style="LibraryClass" Options="None" Regex="\b(Array|Boolean|Date|Math|Object|String|document|NaN|prototype|window|navigator|Audio|Sound)\b" />
+  <Rule Style="LibraryFunction" Options="None" Regex="\b(isFinite|isNaN|parseInt|parseFloat|length|documentElement|getElementsByTagName|getElementsByID|decodeURI|decodeURIComponent|encodeURI|eval|addEventListener|alert|atob|blur|btoa|clearInterval|clearTimeout|close|confirm|dispatchEvent|doNotTrack|find|focus|getComputedStyle|getMatchedCSSRules|getSelection|matchMedia|moveBy|moveTo|open|openDatabase|print|prompt|removeEventListener|resizeBy|resizeTo|scroll|scrollBy|scrollTo|setInterval|setTimeout|showModalDialog|stop)\b" />
+  <Rule Style="Number" Options="None" Regex="\b\d+[\.]?\d*([eE]\-?\d+)?[lLdDfF]?\b|\b0x[a-fA-F\d]+\b" />
+  <Folding Start="{" Options="None" End="}" />
+  <Folding Start="/\*" Options="None" End="\*/" />
+</YnoteSyntax>

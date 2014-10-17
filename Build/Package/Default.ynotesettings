@@ -1,0 +1,42 @@
+{
+	// the default syntax
+	"default_syntax":"Text",
+	// the theme
+	"theme":"Package/Default.uitheme",
+	// the color scheme
+	"color_scheme": "Package/Monokai.ynotetheme",
+	// files opened by image viewer
+	"image_files": [".jpg", ".png", ".tiff", ".bmp", ".gif"],
+	// show line numbers or not
+	"line_numbers": true,
+	// the caret is visible
+	"caret_visible": true,
+	// whether the caret is blinking
+	"caret_blinking": false,
+	// whether the caret is wide/is block caret
+	"block_caret": false,
+	// enable auto indent
+	"auto_indent": true,
+	// show folding lines
+	"folding_lines": true,
+	// length of tab
+	"tab_length":4,
+	// zoom
+	"zoom": 100,
+	// font face
+	// only monospace fonts supported
+	"font_face": "Consolas",
+	// font size (decimal number)
+	"font_size": 9.75,
+	// autocomplete brackets
+	"autocomplete_brackets": true,
+	// whether to highlight folding indicator
+	"highlight_folding_indicator":true,
+	// toggle virtaul space
+	"virtual_space":false,
+	// the left padding
+	"left_padding":15,
+	// toggle word wrap
+	// Column Selection does not work in word wrap mode
+	"word_wrap":false
+}

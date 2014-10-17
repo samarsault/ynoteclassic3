@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<YnoteSyntax>
+   <Key Name="SyntaxName" Value="JSON" />
+  <Key Name="CommentPrefix" Value="//" />
+  <Key Name="FileTypes" Value=".json,.ynotesettings,.ynotemenu" />
+  
+  <Rule Style="String" Options="None" Regex="&quot;&quot;|@&quot;&quot;|''|@&quot;.*?&quot;|(?&lt;!@)(?&lt;range&gt;&quot;.*?[^\\]&quot;)|'.*?[^\\]'" />
+  <Rule Style="Comment" Options="Multiline" Regex="//.*$" />
+  <Rule Style="Comment" Options="Singleline" Regex="(/\*.*?\*/)|(/\*.*)" />
+  <Rule Style="Comment" Options="Singleline, RightToLeft" Regex="(/\*.*?\*/)|(.*\*/)" />
+  <Rule Style="Constant" Regex="\b(true|false)\b"/>
+  <Rule Style="Number" Options="None" Regex="\b\d+[\.]?\d*([eE]\-?\d+)?[lLdDfF]?\b|\b0x[a-fA-F\d]+\b" />
+ 
+  <Folding Start="{" Options="None" End="}" />
+  <Folding Start="/\*" Options="None" End="\*/" />
+  
+</YnoteSyntax>

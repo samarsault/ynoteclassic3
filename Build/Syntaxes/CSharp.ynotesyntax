@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<YnoteSyntax>
+  <Key Name="SyntaxName" Value="C#" />
+  <Key Name="CommentPrefix" Value="//" />
+  <Key Name="FileTypes" Value=".cs" />
+  <Rule Style="Comment" Options="Multiline" Regex="//.*$" />
+  <Rule Style="Comment" Options="Singleline" Regex="(/\*.*?\*/)|(/\*.*)" />
+  <Rule Style="Comment" Options="Singleline, RightToLeft" Regex="(/\*.*?\*/)|(.*\*/)" />
+  <Rule Style="String" Options="None" Regex="&quot;&quot;|@&quot;&quot;|''|@&quot;.*?&quot;|(?&lt;!@)(?&lt;range&gt;&quot;.*?[^\\]&quot;)|'.*?[^\\]'" />
+  <Rule Style="ClassName" Options="None" Regex="\b(class|struct|enum|interface)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="FunctionName" Options="None" Regex="\b(void|int|bool|string|uint|ushort|ulong|byte)\s+(?&lt;range&gt;\w+?)\b" />
+  <Rule Style="Preprocessor" Options="None" Regex="#[a-zA-Z_\d]*\b" />
+  <Rule Style="Keyword" Options="None" Regex="\b(abstract|as|base|using|break|case|catch|char|checked|const|continue|decimal|default|delegate|do|else|enum|event|explicit|extern|finally|fixed|float|for|foreach|goto|if|implicit|in|interface|internal|is|this|lock|long|namespace|new|object|operator|out|override|params|private|protected|public|readonly|ref|return|sbyte|sealed|short|sizeof|stackalloc|static|struct|switch|throw|try|typeof|unchecked|unsafe|virtual|volatile|while|add|alias|ascending|descending|dynamic|from|get|global|group|into|join|let|orderby|partial|remove|select|set|value|var|where|yield)\b" />
+  <Rule Style="Constant" Options="None" Regex="\b(true|false|null)\b" />
+  <Rule Style="Storage" Options="None" Regex="\b(class|void|bool|string|int|double|float|byte|uint|ushort|ulong)\b" />
+  <Rule Style="Number" Options="None" Regex="\b\d+[\.]?\d*([eE]\-?\d+)?[lLdDfF]?\b|\b0x[a-fA-F\d]+\b" />
+  <Folding Start="{" Options="None" End="}" />
+  <Folding Start="/\*" Options="None" End="\*/" />
+  <Folding Start="#region\b" Options="None" End="#endregion\b" />
+</YnoteSyntax>
